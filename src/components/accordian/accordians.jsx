@@ -60,9 +60,6 @@ export default function Accordians() {
                   {dataItem.answer}
                 </div>
               ) : null}
-              {/* {selected === dataItem.id ? (
-                <div className="col-12 text-white text-center">{dataItem.answer}</div>
-              ) : null} */}
             </div>
           </div>
         ))
