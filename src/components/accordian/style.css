@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+p{
+    font-weight: 10px;
+    font-style: italic;
+    color: white;
+}
+.col-bg-color{
+    background-color: #674000;
+}
+.my-btn{
+    background-color: #674000;
+    color: whitesmoke;
+}
+.my-btn:hover{
+    background-color: #674000;
+}
+span{
+    color: white;
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(20px); /* Start 20px below */
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateY(0); /* End at original position */
+      opacity: 1; /* End visible */
+    }
+  }
+  
+  .slide-in {
+    animation: slideIn 0.5s ease forwards; /* Slide in animation */
+  }
+  

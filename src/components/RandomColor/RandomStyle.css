@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.my-height {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.my-btn-color{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 1.4rem;
+    margin-left: 9px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+.my-btn-color:hover{
+    background-color: rgb(209, 178, 236);
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+
+}
