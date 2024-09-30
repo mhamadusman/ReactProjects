@@ -27,7 +27,7 @@ export default function StarRating(props) {
   return (
     <div className="container-fluid my-height bg-dark">
       <div className="row">
-        <div className="col-12 d-flex flex-column align-items-center ">
+        <div className="col-12 d-flex h-100 flex-column align-items-center">
           <p
             style={{ fontFamily: "italic", color: "yellow" }}
             className="m1-5 p-3 fs-3"
